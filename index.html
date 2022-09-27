@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            <span class="password">
+
+            </span>
+            <button class="copy-button">Copy
+
+            </button>
+
+        </header>
+
+        <div class="main-section">
+            <div class="changenumber-div">
+                <label for="changenumber">Select number of characters</label>
+                <input type="number" min="2" max="20" value="2" name="changenumber" id="changenumber">
+                
+            </div>
+            <div class="uppercasecheck-div">
+                <label for="uppercase">Add uppercase letters</label>
+                <input type="checkbox" name="uppercase" id="uppercase">
+                
+            </div>
+            <div class="lowercasecheck-div">
+                <label for="lowercase">Add lowercase letters</label>
+                <input type="checkbox" name="lowercase" id="lowercase">
+                
+            </div>
+            <div class="numbercheck-div">
+                <label for="number">Add numbers</label>
+                <input type="checkbox" name="number" id="number">
+                
+            </div>
+            <div class="symbolscheck-div">
+                <label for="symbols">Add symbols</label>
+                <input type="checkbox" name="symbols" id="symbols">
+                
+            </div>
+            <div class="generate">
+                <button class="generate-button">
+                    Generate password
+                </button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
